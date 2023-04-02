@@ -169,7 +169,7 @@ replace (
 	// Use the cosmos modified protobufs
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
 	// Use custom tendermint - custom
-	github.com/tendermint/tendermint => github.com/baryariv/tendermint v0.34.24-c3
+	github.com/tendermint/tendermint => github.com/baryariv/tendermint v0.34.24-c4
 	// Use rocksdb 7.1.2
 	github.com/tendermint/tm-db => github.com/kava-labs/tm-db v0.6.7-kava.1
 	// Use ethermint fork that respects min-gas-price with NoBaseFee true and london enabled, and includes eip712 support
