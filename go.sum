@@ -119,8 +119,8 @@ github.com/aws/aws-sdk-go-v2/service/route53 v1.1.1/go.mod h1:rLiOUrPLW/Er5kRcQ7
 github.com/aws/aws-sdk-go-v2/service/sso v1.1.1/go.mod h1:SuZJxklHxLAXgLTc1iFXbEWkXs7QRTQpCLGaKIprQW0=
 github.com/aws/aws-sdk-go-v2/service/sts v1.1.1/go.mod h1:Wi0EBZwiz/K44YliU0EKxqTCJGUfYTWXrrBwkq736bM=
 github.com/aws/smithy-go v1.1.0/go.mod h1:EzMw8dbp/YJL4A5/sbhGddag+NPT7q084agLbB9LgIw=
-github.com/bardaki/cosmos-sdk-ka v0.45.9-kava.4-ca-ca4 h1:0CSlULz9bdvpETddhYlTXKBjZil+edZjztaHIvO97Q0=
-github.com/bardaki/cosmos-sdk-ka v0.45.9-kava.4-ca-ca4/go.mod h1:Z5M4TX7PsHNHlF/1XanI2DIpORQ+Q/st7oaeufEjnvU=
+github.com/bardaki/cosmos-sdk-ka v0.45.9-kava.4-ca-ca5 h1:pjfpY7yx4SD8us2vPkljSiX0zVWurDc/IbgN244C8mM=
+github.com/bardaki/cosmos-sdk-ka v0.45.9-kava.4-ca-ca5/go.mod h1:Z5M4TX7PsHNHlF/1XanI2DIpORQ+Q/st7oaeufEjnvU=
 github.com/bardaki/tendermint v0.34.24-c8 h1:OeP8XVYXBrRvTC6SZnO9d/bxjhAf4ZksweF3+zr/+5U=
 github.com/bardaki/tendermint v0.34.24-c8/go.mod h1:rXVrl4OYzmIa1I91av3iLv2HS0fGSiucyW9J4aMTpKI=
 github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973/go.mod h1:Dwedo/Wpr24TaqPxmxbtue+5NUziq4I4S80YR8gNf3Q=
