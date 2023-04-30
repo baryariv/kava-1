@@ -1,12 +1,10 @@
 package cli
 
 import (
-	"bufio"
 	"fmt"
-	"os"
+	"time"
 
 	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/input"
 	"github.com/cosmos/cosmos-sdk/x/auth/signing"
 )
 
@@ -17,6 +15,9 @@ func GenerateOrBroadcastTx(clientCtx client.Context, signingTx signing.Tx) error
 	// These manual flag checks are required as we use broadcast the tx
 	// directly via BroadcastTx instead of tx.GenerateOrBroadcastTxCLI
 	// which handles flags for us.
+
+	startTime := time.Now()
+	println("\033[31m"+"GenerateOrBroadcastTx (kava) Start for %s: ", startTime.String()+"")
 
 	if clientCtx.GenerateOnly {
 		if err := PrintTx(clientCtx, signingTx); err != nil {
@@ -38,6 +39,9 @@ func GenerateOrBroadcastTx(clientCtx client.Context, signingTx signing.Tx) error
 		return err
 	}
 
+	elapsedTime := time.Since(startTime)
+	println("\033[31m"+"GenerateOrBroadcastTx (kava) latency: %s", elapsedTime.String()+"")
+
 	return clientCtx.PrintProto(res)
 }
 
@@ -55,32 +59,32 @@ func PrintTx(clientCtx client.Context, signingTx signing.Tx) error {
 // ConfirmTx outputs the transaction to be signed and requests confirmation
 // if the SkipConfirm flag is not enabled.
 func ConfirmTx(clientCtx client.Context, signingTx signing.Tx) error {
-	if clientCtx.SkipConfirm {
-		return nil
-	}
+	// if clientCtx.SkipConfirm {
+	// 	return nil
+	// }
 
-	out, err := clientCtx.TxConfig.TxJSONEncoder()(signingTx)
-	if err != nil {
-		return err
-	}
+	// out, err := clientCtx.TxConfig.TxJSONEncoder()(signingTx)
+	// if err != nil {
+	// 	return err
+	// }
 
-	_, err = fmt.Fprintf(os.Stderr, "%s\n\n", out)
-	if err != nil {
-		return err
-	}
+	// _, err = fmt.Fprintf(os.Stderr, "%s\n\n", out)
+	// if err != nil {
+	// 	return err
+	// }
 
-	buf := bufio.NewReader(os.Stdin)
-	ok, err := input.GetConfirmation("confirm transaction before signing and broadcasting", buf, os.Stderr)
-	if err != nil {
-		return err
-	}
+	// buf := bufio.NewReader(os.Stdin)
+	// ok, err := input.GetConfirmation("confirm transaction before signing and broadcasting", buf, os.Stderr)
+	// if err != nil {
+	// 	return err
+	// }
 
-	if !ok {
-		_, err = fmt.Fprintf(os.Stderr, "%s\n", "cancelled transaction")
-		if err != nil {
-			return err
-		}
-	}
+	// if !ok {
+	// 	_, err = fmt.Fprintf(os.Stderr, "%s\n", "cancelled transaction")
+	// 	if err != nil {
+	// 		return err
+	// 	}
+	// }
 
 	return nil
 }
