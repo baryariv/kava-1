@@ -119,8 +119,8 @@ github.com/aws/aws-sdk-go-v2/service/route53 v1.1.1/go.mod h1:rLiOUrPLW/Er5kRcQ7
 github.com/aws/aws-sdk-go-v2/service/sso v1.1.1/go.mod h1:SuZJxklHxLAXgLTc1iFXbEWkXs7QRTQpCLGaKIprQW0=
 github.com/aws/aws-sdk-go-v2/service/sts v1.1.1/go.mod h1:Wi0EBZwiz/K44YliU0EKxqTCJGUfYTWXrrBwkq736bM=
 github.com/aws/smithy-go v1.1.0/go.mod h1:EzMw8dbp/YJL4A5/sbhGddag+NPT7q084agLbB9LgIw=
-github.com/bardaki/cosmos-sdk-ka v0.45.9-kava.4-ca-ca12 h1:p3iXOLbnHcYYpEcevW+SrYfo7x/c5ZTye2/M7pjhUgE=
-github.com/bardaki/cosmos-sdk-ka v0.45.9-kava.4-ca-ca12/go.mod h1:Z5M4TX7PsHNHlF/1XanI2DIpORQ+Q/st7oaeufEjnvU=
+github.com/bardaki/cosmos-sdk-ka v0.45.9-kava.4-ca-ca13 h1:Qdp6IHPr448ik+S2UH2c0273AsJfnwi/im2CHwm1XEw=
+github.com/bardaki/cosmos-sdk-ka v0.45.9-kava.4-ca-ca13/go.mod h1:Z5M4TX7PsHNHlF/1XanI2DIpORQ+Q/st7oaeufEjnvU=
 github.com/bardaki/ethermint v0.14.0-kava-v20.1-c1 h1:A1Z4Hg4ckFmRdPywHtny97X1nkWK95V2h42C4TShM0E=
 github.com/bardaki/ethermint v0.14.0-kava-v20.1-c1/go.mod h1:+/TXGhi6XwF9B8h2NrYZCKrrv0+pC3RkpM0950lYyJg=
 github.com/bardaki/tendermint v0.34.24-c10 h1:na6lUPx7OHCRoIFvaFoCLq1p48RrWDxbV6sPddSkBvM=
