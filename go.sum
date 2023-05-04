@@ -121,6 +121,8 @@ github.com/aws/aws-sdk-go-v2/service/sts v1.1.1/go.mod h1:Wi0EBZwiz/K44YliU0EKxq
 github.com/aws/smithy-go v1.1.0/go.mod h1:EzMw8dbp/YJL4A5/sbhGddag+NPT7q084agLbB9LgIw=
 github.com/bardaki/cosmos-sdk-ka v0.45.9-kava.4-ca-ca12 h1:p3iXOLbnHcYYpEcevW+SrYfo7x/c5ZTye2/M7pjhUgE=
 github.com/bardaki/cosmos-sdk-ka v0.45.9-kava.4-ca-ca12/go.mod h1:Z5M4TX7PsHNHlF/1XanI2DIpORQ+Q/st7oaeufEjnvU=
+github.com/bardaki/ethermint v0.14.0-kava-v20.1-c1 h1:A1Z4Hg4ckFmRdPywHtny97X1nkWK95V2h42C4TShM0E=
+github.com/bardaki/ethermint v0.14.0-kava-v20.1-c1/go.mod h1:+/TXGhi6XwF9B8h2NrYZCKrrv0+pC3RkpM0950lYyJg=
 github.com/bardaki/tendermint v0.34.24-c10 h1:na6lUPx7OHCRoIFvaFoCLq1p48RrWDxbV6sPddSkBvM=
 github.com/bardaki/tendermint v0.34.24-c10/go.mod h1:rXVrl4OYzmIa1I91av3iLv2HS0fGSiucyW9J4aMTpKI=
 github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973/go.mod h1:Dwedo/Wpr24TaqPxmxbtue+5NUziq4I4S80YR8gNf3Q=
@@ -569,8 +571,6 @@ github.com/jung-kurt/gofpdf v1.0.3-0.20190309125859-24315acbbda5/go.mod h1:7Id9E
 github.com/jwilder/encoding v0.0.0-20170811194829-b4e1701a28ef/go.mod h1:Ct9fl0F6iIOGgxJ5npU/IUOhOhqlVrGjyIZc8/MagT0=
 github.com/karalabe/usb v0.0.0-20190919080040-51dc0efba356/go.mod h1:Od972xHfMJowv7NGVDiWVxk2zxnWgjLlJzE+F4F7AGU=
 github.com/karalabe/usb v0.0.2/go.mod h1:Od972xHfMJowv7NGVDiWVxk2zxnWgjLlJzE+F4F7AGU=
-github.com/kava-labs/ethermint v0.14.0-kava-v20.1 h1:4ZM/SFPU7RLmioHICs9j+c4hzDZ9Rxb/b+Hs/guAyN4=
-github.com/kava-labs/ethermint v0.14.0-kava-v20.1/go.mod h1:+/TXGhi6XwF9B8h2NrYZCKrrv0+pC3RkpM0950lYyJg=
 github.com/kava-labs/tm-db v0.6.7-kava.1 h1:7cVYlvWx1yP+gGdaAWcfm6NwMLzf4z6DxXguWn3+O3w=
 github.com/kava-labs/tm-db v0.6.7-kava.1/go.mod h1:HVZfZzWXuqWseXQVplxsWXK6kLHLkk3kQB6c+nuSZvk=
 github.com/keybase/go-keychain v0.0.0-20190712205309-48d3d31d256d h1:Z+RDyXzjKE0i2sTjZ/b1uxiGtPhFy34Ou/Tk0qwN0kM=
