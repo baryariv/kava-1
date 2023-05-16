@@ -123,8 +123,8 @@ github.com/bardaki/cosmos-sdk-ka v0.45.9-kava.4-ca-ca17 h1:2siXcmTnmyB6OR5jpDLU2
 github.com/bardaki/cosmos-sdk-ka v0.45.9-kava.4-ca-ca17/go.mod h1:Z5M4TX7PsHNHlF/1XanI2DIpORQ+Q/st7oaeufEjnvU=
 github.com/bardaki/ethermint v0.14.0-kava-v20.1-c14 h1:z2GUAdT0YDD/DwSXYO9uveo+hD4VDn74xDlzkfn0mXc=
 github.com/bardaki/ethermint v0.14.0-kava-v20.1-c14/go.mod h1:+/TXGhi6XwF9B8h2NrYZCKrrv0+pC3RkpM0950lYyJg=
-github.com/bardaki/tendermint v0.34.24-c11 h1:xxiD3n+KbJGfSHI6pkL8YEeUV8mgfRg7JpWeid59m4Y=
-github.com/bardaki/tendermint v0.34.24-c11/go.mod h1:rXVrl4OYzmIa1I91av3iLv2HS0fGSiucyW9J4aMTpKI=
+github.com/bardaki/tendermint v0.34.24-c12 h1:kmiImG86SfrweuYCyaOXSROCcsE5CyCZjFpACOfxaf0=
+github.com/bardaki/tendermint v0.34.24-c12/go.mod h1:rXVrl4OYzmIa1I91av3iLv2HS0fGSiucyW9J4aMTpKI=
 github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973/go.mod h1:Dwedo/Wpr24TaqPxmxbtue+5NUziq4I4S80YR8gNf3Q=
 github.com/beorn7/perks v1.0.0/go.mod h1:KWe93zE9D1o94FZ5RNwFwVgaQK1VOXiVxmqh+CedLV8=
 github.com/beorn7/perks v1.0.1 h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=
