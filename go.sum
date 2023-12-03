@@ -268,8 +268,8 @@ github.com/aws/aws-sdk-go-v2/service/route53 v1.1.1/go.mod h1:rLiOUrPLW/Er5kRcQ7
 github.com/aws/aws-sdk-go-v2/service/sso v1.1.1/go.mod h1:SuZJxklHxLAXgLTc1iFXbEWkXs7QRTQpCLGaKIprQW0=
 github.com/aws/aws-sdk-go-v2/service/sts v1.1.1/go.mod h1:Wi0EBZwiz/K44YliU0EKxqTCJGUfYTWXrrBwkq736bM=
 github.com/aws/smithy-go v1.1.0/go.mod h1:EzMw8dbp/YJL4A5/sbhGddag+NPT7q084agLbB9LgIw=
-github.com/bardaki/cometbft v0.34.27-c11 h1:1LBWMMQrrWr3VYFMtAqXn6LHl019BzgXnk0XoZhmzPM=
-github.com/bardaki/cometbft v0.34.27-c11/go.mod h1:BcCbhKv7ieM0KEddnYXvQZR+pZykTKReJJYf7YC7qhw=
+github.com/bardaki/cometbft v0.34.27-c12 h1:nl5fmwKn7rnbGWVcQoPnO7EWkCuuE5SUpTHO4bpbK4M=
+github.com/bardaki/cometbft v0.34.27-c12/go.mod h1:BcCbhKv7ieM0KEddnYXvQZR+pZykTKReJJYf7YC7qhw=
 github.com/bardaki/ethermint v0.21.0-kava-v23-1-c18 h1:dg8ph9reCyzUsxGtVwExMiEghsUMk9MnydEqwQ7Fueg=
 github.com/bardaki/ethermint v0.21.0-kava-v23-1-c18/go.mod h1:rdm6AinxZ4dzPEv/cjH+/AGyTbKufJ3RE7M2MDyklH0=
 github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973/go.mod h1:Dwedo/Wpr24TaqPxmxbtue+5NUziq4I4S80YR8gNf3Q=
