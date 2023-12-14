@@ -3,6 +3,7 @@ package ante
 import (
 	"fmt"
 	"runtime/debug"
+	"time"
 
 	errorsmod "cosmossdk.io/errors"
 	sdk "github.com/cosmos/cosmos-sdk/types"
@@ -65,12 +66,17 @@ func NewAnteHandler(options HandlerOptions) (sdk.AnteHandler, error) {
 	return func(
 		ctx sdk.Context, tx sdk.Tx, sim bool,
 	) (newCtx sdk.Context, err error) {
+		// return ctx, nil
+		startTime := time.Now()
+		timeWithMilliseconds := startTime.Format("2006-01-02 15:04:05.000")
+		fmt.Printf("\n ========================  KAVA NewAnteHandler sub id, Time: " + timeWithMilliseconds + " ===========================")
 		var anteHandler sdk.AnteHandler
 
 		defer Recover(ctx.Logger(), &err)
 
 		txWithExtensions, ok := tx.(authante.HasExtensionOptionsTx)
 		if ok {
+			fmt.Printf("\n ========================  KAVA NewAnteHandler EVM TX")
 			opts := txWithExtensions.GetExtensionOptions()
 			if len(opts) > 1 {
 				return ctx, errorsmod.Wrap(
@@ -97,7 +103,10 @@ func NewAnteHandler(options HandlerOptions) (sdk.AnteHandler, error) {
 					)
 				}
 
-				return anteHandler(ctx, tx, sim)
+				ctx, err := anteHandler(ctx, tx, sim)
+				elapsedTime := time.Since(startTime)
+				fmt.Printf("\n ======================== KAVA AnteHandler logic execution time: %v\n", elapsedTime)
+				return ctx, err
 			}
 		}
 
