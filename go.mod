@@ -209,7 +209,7 @@ replace (
 	// See https://github.com/cosmos/cosmos-sdk/pull/13093
 	github.com/dgrijalva/jwt-go => github.com/golang-jwt/jwt/v4 v4.4.2
 	// Use ethermint fork that respects min-gas-price with NoBaseFee true and london enabled, and includes eip712 support
-	github.com/evmos/ethermint => github.com/bardaki/ethermint v0.21.0-kava-v23-1-c32
+	github.com/evmos/ethermint => github.com/bardaki/ethermint v0.21.0-kava-v23-1-c33
 	// See https://github.com/cosmos/cosmos-sdk/pull/10401, https://github.com/cosmos/cosmos-sdk/commit/0592ba6158cd0bf49d894be1cef4faeec59e8320
 	github.com/gin-gonic/gin => github.com/gin-gonic/gin v1.7.0
 	// Use the cosmos modified protobufs
@@ -217,7 +217,7 @@ replace (
 	// Downgraded to avoid bugs in following commits which causes "version does not exist" errors
 	github.com/syndtr/goleveldb => github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
 	// Use cometbft fork of tendermint
-	github.com/tendermint/tendermint => github.com/bardaki/cometbft v0.34.27-c30
+	github.com/tendermint/tendermint => github.com/bardaki/cometbft v0.34.27-c31
 	// Indirect dependencies still use tendermint/tm-db
 	github.com/tendermint/tm-db => github.com/kava-labs/tm-db v0.6.7-kava.4
 )
