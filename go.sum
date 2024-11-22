@@ -281,8 +281,8 @@ github.com/aws/aws-sdk-go-v2/service/route53 v1.1.1/go.mod h1:rLiOUrPLW/Er5kRcQ7
 github.com/aws/aws-sdk-go-v2/service/sso v1.1.1/go.mod h1:SuZJxklHxLAXgLTc1iFXbEWkXs7QRTQpCLGaKIprQW0=
 github.com/aws/aws-sdk-go-v2/service/sts v1.1.1/go.mod h1:Wi0EBZwiz/K44YliU0EKxqTCJGUfYTWXrrBwkq736bM=
 github.com/aws/smithy-go v1.1.0/go.mod h1:EzMw8dbp/YJL4A5/sbhGddag+NPT7q084agLbB9LgIw=
-github.com/bardaki/ethermint v0.21.0-kava-v27.0-c1-1 h1:pSQtOIcRto8XAi4yUy4d49tdEmd3m6OBeFWoS7njd4c=
-github.com/bardaki/ethermint v0.21.0-kava-v27.0-c1-1/go.mod h1:zGcUyJhdcoO0VfxAQwiXpGjBAV8w+Hig1yaH2l7KB5k=
+github.com/bardaki/ethermint v0.21.0-kava-v27.0-c1-2 h1:SHpymWp0vgCRKGkYWCGvTDniigfkcqn3PeCUBdXWjuI=
+github.com/bardaki/ethermint v0.21.0-kava-v27.0-c1-2/go.mod h1:zGcUyJhdcoO0VfxAQwiXpGjBAV8w+Hig1yaH2l7KB5k=
 github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973/go.mod h1:Dwedo/Wpr24TaqPxmxbtue+5NUziq4I4S80YR8gNf3Q=
 github.com/beorn7/perks v1.0.0/go.mod h1:KWe93zE9D1o94FZ5RNwFwVgaQK1VOXiVxmqh+CedLV8=
 github.com/beorn7/perks v1.0.1 h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=
